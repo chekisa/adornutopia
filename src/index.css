@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary text-primary;
+  }
+}
+
+.alert-button{
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 4px; 
+  font-size: 18px;
+  margin: 16px;
+  transition: 0.3s;
+}
+
+.confirm{
+  background-color:#48bb78;
+}
+
+.deny{
+  background-color:#f56565;
+}
+
+.cancel{
+  background-color:#a0aec0;
+}
+
+.confirm:hover{
+  background-color: #68d391;
+}
+
+.deny:hover{
+  background-color: #fc8181;
+}
+
+.cancel:hover{
+  background-color: #cbd5e0;
+}
